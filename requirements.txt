@@ -1,0 +1,12 @@
+sentence-transformers
+beautifulsoup4
+nltk
+chromadb
+openai==0.28.0
+scikit-learn
+gradio
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+requests

@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  smart_search:
+    build: .
+    ports:
+      - "8000:8000"
+      - "7861:7861"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./:/app
